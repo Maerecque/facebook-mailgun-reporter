@@ -1,0 +1,37 @@
+{
+  "name": "facebook-mailgun-reporter",
+  "version": "1.0.0",
+  "description": "A mailing function to report facebook ad changes to an email adress using mailgun.",
+  "main": "index.js",
+  "keywords": ["facebook", "mailgun", "webhooks"],
+  "scripts": {
+    "build": "netlify deploy --dir=./ --functions=functions --prod"
+  },
+  "author": {
+    "name": "Marc Zoomers",
+    "email": "marczoomers@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Selene Blok",
+      "email": "selene.blok@gmail.com",
+      "url": "https://selene.codes"
+    }
+  ],
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paypal.me/marczoomers"
+    },
+    {
+      "type": "individual",
+      "url": "https://paypal.me/seleneblok"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}
